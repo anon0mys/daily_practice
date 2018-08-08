@@ -2,9 +2,6 @@
 # @return {Integer}
 
 def roman_to_int(s)
-  values = { 'I' => 1,
-             'V' => 5,
-             'X' => 10 }
   characters = s.chars
   total = 0
 
@@ -18,4 +15,10 @@ def roman_to_int(s)
     end
   end
   total
+end
+
+def values
+  { 'I' => 1,
+    'V' => 5,
+    'X' => 10 }
 end

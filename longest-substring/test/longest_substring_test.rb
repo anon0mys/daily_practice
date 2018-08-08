@@ -7,7 +7,7 @@ class SubstringTest < Minitest::Test
     assert_equal 1, length_of_longest_substring('a')
   end
 
-  def test_it_can_find_substrings_in_a_word
+  def test_it_can_find_substrings_in_a_repeated_pattern
     assert_equal 3, length_of_longest_substring('abcabcbb')
   end
 
